@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo{
+            border: 10px solid white;
+            height: 400px;
+            width: 400px;
+            margin-top: 100px;
+            margin-left: 450px;
+            animation-name: box1;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+            
+        }
+        @keyframes box1 {
+            0%{
+                background-color: chocolate;
+                border-radius: 60%;
+            }
+            10%{
+                background-color: chocolate;
+                border-radius: 60%;
+            }
+        }
+        .logo1{
+            border: 10px solid white;
+            height: 300px;
+            width: 300px;
+            margin-top: -370px;
+            margin-left: 500px;
+            border-radius: 25%;
+            animation-name: box2;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+            animation-duration: 5s;
+            background-color: rgb(247, 6, 166);
+            background-image: linear-gradient(purple ,rgb(247,6,170),red ,yellow );
+        }
+        @keyframes box2{
+            0%{
+                background-color: black;
+                border-radius: 60%;
+                background-image: none;
+            }
+            10%{
+                background-color: black;
+                border-radius: 60%;
+                background-image: none;
+            }
+            
+        }
+        .logo2{
+            border: 15px solid white;
+            height: 200px;
+            width: 200px;
+            margin-top: -275px;
+            margin-left: 545px;
+            border-radius: 25%;
+            animation-name: box3;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+            animation-duration: 5s;
+
+            
+        }
+        @keyframes box3{
+        0%{
+            background-color: rgb(51, 32, 70);
+            border-radius: 60%;
+        }
+        10%{
+            background-color: rgb(51, 32, 70);
+            border-radius: 60%;
+         }
+}
+        
+        .logo3{
+            border: 15px solid white;
+            height: 100px;
+            width: 100px;
+            margin-top: -180px;
+            margin-left: 595px;
+            border-radius: 100%;
+            animation-name: box4;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+            animation-duration: 5s;
+           
+
+        }
+
+        @keyframes box4{
+            0%{
+                background-color: blue;
+                border-radius: 60%;
+            }
+            10%{
+                background-color: blue;
+                border-radius: 60%;
+            }
+        }
+        .logo4{
+            border: 15px solid white;
+            height: 1px;
+            width: 1px;
+            margin-top: -148px;
+            margin-left: 710px;
+            border-radius: 100%;
+            background-color: white;
+            animation-name: box5;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+            animation-duration: 5s;
+        }
+
+        @keyframes box5{
+            0%{
+               display: none;
+            }
+            10%{
+                display: none;
+            }
+        }
+        </style>
+</head>
+<body>
+    <div class="logo"></div>
+    <div class="logo1"></div>
+    <div class="logo2"></div>
+    <div class="logo3"></div>
+    <div class="logo4"></div>
+</body>
+</html>

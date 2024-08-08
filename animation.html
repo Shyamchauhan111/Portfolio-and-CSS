@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .ani{
+            height: 200px;
+            background-color: peru;
+            /* animation call */
+            animation-name: ani1;
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+            animation-delay: 5s;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+        }
+
+        @keyframes ani1 {
+            0%{
+                width: 0;
+                background-color: white;
+            }
+            10%{
+                width: 20%;
+                background-color: brown;
+            }
+            30%{
+                width: 50%;
+                background-color: cyan;
+            }
+            80%{
+                width: 80%;
+                background-color: slateblue;
+            }
+            85%{
+                width: 85%;
+                background-color: gray;
+            }
+            100%{
+                width: 100%;
+                background-color: bisque;
+            }
+        }
+
+        /* Animation define */
+        @keyframes ani {
+            /* 
+                startblock{..}
+                endblock{..}
+            */
+            from{
+                width: 0;
+            }
+            to{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ani"></div>
+    
+</body>
+</html>

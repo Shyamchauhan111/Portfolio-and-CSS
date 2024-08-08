@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+</head>
+<style>
+         .ani1{
+            height: 200px;
+            background-color: red;
+            animation-name: ani2;
+            animation-duration: 5s;
+            animation-iteration-count: 3s;
+            animation-delay: 1s;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+         }
+
+         @keyframes ani2{
+            0%{
+                width: 0%;
+                background-color: black;
+            }
+            10%{
+                width: 10%;
+                background-color: blue;
+            }
+         }
+
+         @keyframes ani1{
+            from{
+                width: 0%;
+            }
+            to{
+                width: 100%;
+            }
+         }
+</style>
+<body>
+
+
+    <div class="ani1"></div>
+    
+</body>
+</html>

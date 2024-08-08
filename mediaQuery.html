@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+            .box{
+                background-color: rgb(141, 92, 33);
+                height: 10vh;
+                width: 50vw;
+            }
+            .container{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .box1{
+                height: 10rem;
+                width: 10rem;
+                margin: 0.1%;
+                background-color: green;
+            }
+            /* Its for bbig devices laptop/tv/monitor */
+
+            /* for tables max width = 787px-1300px */
+            @media (max-width:1300px){
+                body{
+                    background-color: gray;
+                }
+            }
+            /* For mobiles (max-width 300px-787px) */
+            @media (max-width:787px){
+                body{background-color: pink;}
+            }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+
+    </div>
+</body>
+</html>

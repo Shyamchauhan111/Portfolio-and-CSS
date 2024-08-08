@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leavf Animation</title>
+    <style>
+        .box1 {
+            height: 150px;
+            width: 150px;
+            background-color: white;
+            animation-name: logo1;
+            animation-duration: 5s;
+            border: 5px solid black;
+            margin-left: 500px;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+        }
+
+        @keyframes logo1 {
+            0% {
+                background-color: red;
+                border-radius: 0% 100% 0% 100%;
+            }
+
+            10% {
+                background-color: red;
+                border-radius: 0% 100% 0% 100%;
+            }
+        }
+
+
+        .box2 {
+            border: 5px solid black;
+            height: 150px;
+            width: 150px;
+            margin-left: 500px;
+            background-color: white;
+            animation-name: logo2;
+            animation-duration: 5s;
+            border: 5px solid black;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+        }
+
+        @keyframes logo2 {
+            0% {
+                background-color: blue;
+                border-radius: 100% 0% 100% 0%;
+            }
+
+            10% {
+                background-color: blue;
+                border-radius: 100% 0% 100% 0%;
+            }
+        }
+
+
+        .box3 {
+            border: 5px solid black;
+            height: 150px;
+            width: 150px;
+            margin-left: 660px;
+            margin-top: -320px;
+            background-color: white;
+            animation-name: logo2;
+            animation-duration: 5s;
+            border: 5px solid black;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+        }
+
+
+        .box4 {
+            border: 5px solid black;
+            height: 150px;
+            width: 150px;
+            margin-left: 660px;
+            background-color: white;
+            animation-name: logo1;
+            animation-duration: 5s;
+            border: 5px solid black;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+</body>
+
+</html>

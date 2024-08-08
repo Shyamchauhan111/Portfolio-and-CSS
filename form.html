@@ -1,0 +1,59 @@
+ṇ<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- 
+        name -> indentify
+        obsubmit -> JS call
+        action -> backed call  (API)
+        method -> get(insecure) / post(secure)
+     -->
+    <form>
+        <label>User  Name: </label>
+        <input />
+        <!-- 
+            type = which type of data u want ex: email, password, submit etc
+            name = identity (backend fetch)
+            id   = identity (js fetch)
+            placeholder = watermark
+            value = bydefault value
+            min = minimum value
+            max = maximum value
+            minlength = minimum number of charater/number
+            maxlength = maximum number of character/number
+         -->
+
+         <input type="text">
+         <input type="email">
+         <input type="url">
+         <input type="search">
+         <input type="password">
+         <input type="tel" maxlength="10" minlength="10">
+         <input type="number" min="5" max="15"><br/><br/>
+         <input type="month">
+         <input type="week">
+         <input type="date">
+         <input type="time">
+         <input type="datetime-local">
+         <br/><br/>
+         <input type="file">
+         <input type="color">
+         <input type="range">
+         <br/><br/>
+            <textarea rows="10" cols="200"></textarea>
+            <select>
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </select>
+         <input type="radio">
+         <input type="checkbox">
+         <br/><br/>
+         <input type="submit">
+         <input type="reset">
+    </form>
+</body>
+</html>
